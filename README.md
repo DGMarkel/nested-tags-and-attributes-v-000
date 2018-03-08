@@ -44,7 +44,7 @@ attributes can be used to identity, classify, style or modify the default
 behavior of the element.
 
 ```html
-	<element attribute_name=attribute_value another_attribute_name=another_attribute_value></element>
+	<a href = "http://www.google.com">
 ```
 
 A very common use case for HTML attributes is element identification (`id`
@@ -56,7 +56,7 @@ Both `<id>` and `<class>` attributes are often used for styling purposes since t
 
 ```html
 	<p id='main_paragraph'>This element can be uniquely identified  using the 'main_paragraph' id HTML attribute</p>
-	
+
 	<p class='other_paragraphs'>This element belongs to a group of elements who share the 'other_paragraphs' HTML class attribute</p>
 	<p class='other_paragraphs'>This element also belongs to a group of elements who share the 'other_paragraphs' HTML class attribute</p>
 ```
